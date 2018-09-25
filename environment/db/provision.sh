@@ -4,6 +4,7 @@ echo "deb http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.2 multiverse" 
 sudo apt-get update -y
 sudo apt-get upgrade -y
 
+# sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys EA312927
 # sudo apt-get install mongodb-org=3.2.18 -y
 sudo apt-get install -y mongodb-org=3.2.20 mongodb-org-server=3.2.20 mongodb-org-shell=3.2.20 mongodb-org-mongos=3.2.20 mongodb-org-tools=3.2.20
 

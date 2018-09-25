@@ -1,0 +1,38 @@
+DEPENDENCIES
+  mongo
+    git: git@github.com:hahmed377/mongo_cookbook.git
+    revision: 0ce20921a157300eafc0580b1c89cb4e8abcb953
+  node
+    git: git@github.com:hahmed377/node_cookbook.git
+    revision: 49f24d7c26d011a022054f0e9af2e8a7b21744e4
+
+GRAPH
+  ark (4.0.0)
+    build-essential (>= 0.0.0)
+    seven_zip (>= 0.0.0)
+  build-essential (8.2.1)
+    mingw (>= 1.1)
+    seven_zip (>= 0.0.0)
+  mingw (2.1.0)
+    seven_zip (>= 0.0.0)
+  mongo (0.1.0)
+  node (0.1.0)
+    nodejs (~> 5.0.0)
+    pm2 (>= 0.0.0)
+  nodejs (5.0.0)
+    ark (>= 2.0.2)
+    build-essential (>= 0.0.0)
+  pm2 (0.7.4)
+    poise-javascript (~> 1.1.0)
+  poise (2.8.2)
+  poise-archive (1.5.0)
+    poise (~> 2.6)
+  poise-javascript (1.1.0)
+    poise (~> 2.0)
+    poise-languages (~> 2.0)
+  poise-languages (2.1.2)
+    poise (~> 2.5)
+    poise-archive (~> 1.0)
+  seven_zip (3.0.0)
+    windows (>= 0.0.0)
+  windows (5.1.1)
